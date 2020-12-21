@@ -1,0 +1,53 @@
+*{
+  cursor: default;
+}
+#board{
+  height: 600px;
+  width: 600px;
+  background: #900C3F;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 350px;
+}
+
+.square{
+  height: 20px;
+  width: 20px;
+  background: none;
+  float:right;
+}
+
+h1{
+  color: white;
+  background:  #152135;
+  text-align: center;
+  margin-top: 250px;
+  /* width: 70%; */
+}
+
+h2{
+  color: white;
+  background: #152135;
+  text-align: center;
+  margin-top: 264px;
+  cursor: pointer;
+}
+
+p{
+  position: absolute;
+  font-size: 24px;
+  background: #152135;
+  color: white;
+  margin: 40px 40px;
+  padding: 10px 10px 10px 10px;
+
+
+}
+
+::selection{
+  background: none;
+}
+
+::-moz-selection {
+  background: none;
+}
